@@ -17,7 +17,8 @@ int SumNumbers(int num)
 Console.WriteLine("Введите натуральное число");
 int number = Convert.ToInt32(Console.ReadLine());
 
-// int result = SumNumbers(number);
-Console.WriteLine(SumNumbers(number));
+int result = SumNumbers(number);
+// Console.WriteLine(SumNumbers(number));  
+Console.WriteLine($"Сумму чисел от 1 до {number} = {result}");
 
 
